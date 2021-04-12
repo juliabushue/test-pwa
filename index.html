@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Wiredelta</title>
+<meta name="description" content="Software is feeding the world"/>
+
+<!--next two lines are what links the manifest to the website-->
+<meta name="theme-color" content="#4dbaa8"/>
+<link rel="manifest" href="manifest.json">
+
+<!--script needed for loading and caching files-->
+<script>
+    //if browser supports service worker
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('sw.js');
+    };
+</script>
+</head>
+<body>
+<h1>wiredelta PWA</h1>
+
+<p>Wiredelta you rock! </p>
+
+<p>Wiredelta &copy; 2020 all rights reserved<p>
+</body>
+</html>
