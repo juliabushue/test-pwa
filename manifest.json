@@ -3,14 +3,9 @@
 "name": "Wiredelta PWA",
 "icons": [
     {
-"src": "Icon-App-76x76@2x.png",
+"src": "images/Icon-App-76x76@2x.png",
 "type": "image/png",
-"sizes": "144x 144"
-},
-{
-"src": "Icon-App-76x76@2x.png",
-"type": "image/png",
-"sizes": "144x144"
+"sizes": "152x152"
 }
 ],
 "start url": "/index.html",
